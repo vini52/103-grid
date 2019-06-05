@@ -6,7 +6,6 @@ body{
                         'section section aside aside'
                         'footer footer footer footer';
     grid-template-rows: 20vh 15vh 50vh 30vh;
-    grid-gap: 5px;
 }
 header{
     display: flex;
@@ -38,6 +37,21 @@ nav a:hover{
 section{
     grid-area: section;
     background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 100%;
+    box-shadow: 2px 2px 5px black;
+}
+section img:hover{
+    height: 305px;
+    width: 305px;
+    transition: 0.6s;
 }
 aside{
     grid-area: aside;
