@@ -6,7 +6,7 @@ body{
                         'section section aside aside'
                         'footer footer footer footer';
     grid-template-rows: 20vh 15vh 50vh 30vh;
-    grid-gap: 10px;
+    grid-gap: 5px;
 }
 header{
     display: flex;
@@ -20,7 +20,20 @@ header img{
 }
 nav{
     grid-area: nav;
-    background-color: blue;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Heebo', sans-serif;
+}
+nav a:hover{
+    color: black;
 }
 section{
     grid-area: section;
