@@ -9,8 +9,14 @@ body{
     grid-gap: 10px;
 }
 header{
+    display: flex;
     grid-area: header;
-    background-color: red;
+    background-color: black;
+    justify-content: center;
+}
+header img{
+    height: 100%;
+    width: 100px;
 }
 nav{
     grid-area: nav;
